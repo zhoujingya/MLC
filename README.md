@@ -33,3 +33,11 @@ export PATH=/home/triton/work/llvm-source-code/build/bin:$PATH
 pip install -e python
 ```
 > Change `LLVM_BUILD_DIR` based on your build
+
+## Setup python environment
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
